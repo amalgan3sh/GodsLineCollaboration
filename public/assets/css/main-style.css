@@ -28,6 +28,7 @@
     --theme-color: #172229;
     --second-color: #FFE7D9;
     --third-color: #AC7E66;
+    --fourth-color: #544d49;
     --grey-color: #4B4B4B;
     --border-color: #373737;
     --black: #000000;
@@ -158,23 +159,23 @@ input[type=number] {
 }
 
 ::-webkit-input-placeholder {
-    color: var(--theme-color);
+    color: var(--fourth-color);
 }
 
 :-ms-input-placeholder {
-    color: var(--theme-color);
+    color: var(--fourth-color);
 }
 
 ::-moz-placeholder {
-    color: var(--theme-color);
+    color: var(--fourth-color);
 }
 
 ::-ms-input-placeholder {
-    color: var(--theme-color);
+    color: var(--fourth-color);
 }
 
 ::placeholder {
-    color: var(--theme-color);
+    color: var(--fourth-color);
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -1976,7 +1977,7 @@ textarea {
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
-    color: var(--theme-color);
+    color: var(--white-color);
 }
 
 textarea {

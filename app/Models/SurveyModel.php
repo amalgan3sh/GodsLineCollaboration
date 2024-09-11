@@ -6,21 +6,17 @@ use CodeIgniter\Model;
  
 class SurveyModel extends Model
 {
-    protected $table = 'survey_responses';
-    protected $primaryKey = 'id';
+    protected $table = 'gods_line_collaboration';
+    protected $primaryKey = 'organization_or_individual_id';
     protected $allowedFields = [
-        'who_are_you', 'first_name', 'last_name', 'gender', 'nationality', 'age', 'phone', 'email',
-        'designation', 'current_residential_location', 'hometown', 'project_location',
-        'interested_district', 'distance_from_city', 'house_type', 'farm_type',
-        'farm_acres', 'farm_facility_management', 'farm_additional_services', 
-        'villa_bedrooms', 'villa_sqft', 'villa_master_bedroom_size', 'villa_living_room_size',
-        'villa_bedroom_size', 'villa_bathroom_size', 'villa_swimming_pool', 'villa_pool_size',
-        'villa_facility_management', 'villa_site_visiting', 'villa_online_booking', 
-        'villa_real_time_monitoring', 'resort_type', 'resort_camp_site', 'resort_pub', 
-        'resort_bar', 'resort_open_restaurant', 'resort_additional_suggestions', 
-        'resort_yoga_meditations', 'resort_indoor_games', 'resort_other_suggestions', 
-        'wellness_park_facilities', 'smart_home_facility', 'other_facilities', 'budget_range',
-        'family_members', 'additional_income', 'income_sources', 'created_at'
+        'organization_name', 'type_of_organization', 'other_type_of_organization', 'registration_number', 
+        'country_of_registration', 'headquarters_address', 'city', 'state_or_province', 'postal_code', 'country', 'phone', 'website', 
+        'primary_contact_person', 'title_or_position', 'email_primary_contact', 'phone_primary_contact', 'collaboration_interest', 
+        'collaboration_interest_specify', 'collaboration_proposal', 'previous_experience', 'previous_experience_specify', 'expertise_to_offer', 
+        'expertise_to_offer_specify', 'resource_for_collaboration', 'resource_for_collaboration_specify', 'collaboration_objective', 
+        'collaboration_objective_specify', 'partnership_type', 'partnership_type_specify', 'collaboration_timeline', 'legal_and_regulatory_experience', 
+        'ethical_and_environmental_standards', 'partnership_with_us', 'additional_information_for_proposal', 'authorized_sign', 'authorized_name', 
+        'authorized_title', 'authorized_date', 'created_at'
     ];
     protected $useTimestamps = true;
     protected $createdField = 'created_at';

@@ -1,4 +1,3 @@
-
       <!--header end here-->
       <div class="wrapper">
          <section class="my-account-page padding-bottom padding-top">
@@ -34,7 +33,7 @@
                                     <path d="M4.13595 2.48099C4.52183 1.81949 5.47763 1.81949 5.86351 2.48099L7.62247 5.49636C8.01135 6.16302 7.53048 7.00023 6.75869 7.00023H3.24076C2.46897 7.00023 1.9881 6.16301 2.37699 5.49636L4.13595 2.48099Z" fill="#67898F"/>
                                  </svg>
                                  <span>
-                                 <b>Personal Information</b>
+                                 <b> Organization/Individual Information</b>
                                  </span>
                               </a>
                            </li>
@@ -51,39 +50,51 @@
                                     <path d="M5 9C4.44772 9 4 9.44772 4 10C4 10.5523 4.44772 11 5 11C5.55228 11 6 10.5523 6 10C6 9.44772 5.55228 9 5 9Z" fill="#67898F"/>
                                  </svg>
                                  <span>
-                                 <b>Property Preferences</b>
+                                 <b>Collaboration Interest</b>
+                                 </span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#tab-5" data-scroll="tab-5">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.9993 11.0292C9.02013 11.5811 8.58962 12.0454 8.03773 12.0662C6.79354 12.1132 5.88545 12.1791 5.23437 12.244C4.59318 12.3079 4.20739 12.695 4.14143 13.2345C4.06365 13.8708 4 14.7683 4 16C4 17.2317 4.06366 18.1292 4.14144 18.7655C4.20736 19.3048 4.59333 19.6921 5.23467 19.7559C6.44321 19.8763 8.53118 20 12 20C15.4688 20 17.5568 19.8763 18.7653 19.7559C19.4067 19.6921 19.7926 19.3048 19.8586 18.7655C19.9363 18.1292 20 17.2317 20 16C20 14.7683 19.9363 13.8708 19.8586 13.2345C19.7926 12.695 19.4068 12.3079 18.7656 12.244C18.1145 12.1791 17.2065 12.1132 15.9623 12.0662C15.4104 12.0454 14.9799 11.5811 15.0007 11.0292C15.0215 10.4773 15.4858 10.0468 16.0377 10.0676C17.3148 10.1158 18.2646 10.1842 18.9639 10.2538C20.4341 10.4003 21.6523 11.4253 21.8438 12.9919C21.9329 13.7211 22 14.7008 22 16C22 17.2992 21.9329 18.2789 21.8438 19.0082C21.6523 20.5748 20.4334 21.5997 18.9636 21.7461C17.6693 21.875 15.5115 22 12 22C8.48847 22 6.33068 21.875 5.03643 21.7461C3.56655 21.5997 2.34774 20.5748 2.15621 19.0082C2.06707 18.2789 2 17.2992 2 16C2 14.7008 2.06707 13.7211 2.15621 12.9919C2.3477 11.4253 3.56595 10.4003 5.03612 10.2538C5.73543 10.1842 6.68525 10.1158 7.96228 10.0676C8.51418 10.0468 8.97846 10.4773 8.9993 11.0292Z" fill="#67898F"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 7.20711C8.81658 7.59763 8.18342 7.59763 7.79289 7.20711C7.40237 6.81658 7.40237 6.18342 7.79289 5.79289L11.2929 2.29289C11.6834 1.90237 12.3166 1.90237 12.7071 2.29289L16.2071 5.79289C16.5976 6.18342 16.5976 6.81658 16.2071 7.20711C15.8166 7.59763 15.1834 7.59763 14.7929 7.20711L13 5.41421L13 15C13 15.5523 12.5523 16 12 16C11.4477 16 11 15.5523 11 15L11 5.41421L9.20711 7.20711Z" fill="#67898F"/>
+                                 </svg>
+                                 <span>
+                                 <b>Expertise and Resources</b>
                                  </span>
                               </a>
                            </li>
                            <li>
                               <a href="#tab-6" data-scroll="tab-6">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.9993 11.0292C9.02013 11.5811 8.58962 12.0454 8.03773 12.0662C6.79354 12.1132 5.88545 12.1791 5.23437 12.244C4.59318 12.3079 4.20739 12.695 4.14143 13.2345C4.06365 13.8708 4 14.7683 4 16C4 17.2317 4.06366 18.1292 4.14144 18.7655C4.20736 19.3048 4.59333 19.6921 5.23467 19.7559C6.44321 19.8763 8.53118 20 12 20C15.4688 20 17.5568 19.8763 18.7653 19.7559C19.4067 19.6921 19.7926 19.3048 19.8586 18.7655C19.9363 18.1292 20 17.2317 20 16C20 14.7683 19.9363 13.8708 19.8586 13.2345C19.7926 12.695 19.4068 12.3079 18.7656 12.244C18.1145 12.1791 17.2065 12.1132 15.9623 12.0662C15.4104 12.0454 14.9799 11.5811 15.0007 11.0292C15.0215 10.4773 15.4858 10.0468 16.0377 10.0676C17.3148 10.1158 18.2646 10.1842 18.9639 10.2538C20.4341 10.4003 21.6523 11.4253 21.8438 12.9919C21.9329 13.7211 22 14.7008 22 16C22 17.2992 21.9329 18.2789 21.8438 19.0082C21.6523 20.5748 20.4334 21.5997 18.9636 21.7461C17.6693 21.875 15.5115 22 12 22C8.48847 22 6.33068 21.875 5.03643 21.7461C3.56655 21.5997 2.34774 20.5748 2.15621 19.0082C2.06707 18.2789 2 17.2992 2 16C2 14.7008 2.06707 13.7211 2.15621 12.9919C2.3477 11.4253 3.56595 10.4003 5.03612 10.2538C5.73543 10.1842 6.68525 10.1158 7.96228 10.0676C8.51418 10.0468 8.97846 10.4773 8.9993 11.0292Z" fill="#67898F"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 7.20711C8.81658 7.59763 8.18342 7.59763 7.79289 7.20711C7.40237 6.81658 7.40237 6.18342 7.79289 5.79289L11.2929 2.29289C11.6834 1.90237 12.3166 1.90237 12.7071 2.29289L16.2071 5.79289C16.5976 6.18342 16.5976 6.81658 16.2071 7.20711C15.8166 7.59763 15.1834 7.59763 14.7929 7.20711L13 5.41421L13 15C13 15.5523 12.5523 16 12 16C11.4477 16 11 15.5523 11 15L11 5.41421L9.20711 7.20711Z" fill="#67898F"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.52275 8.93361C9.42172 9.17558 9.19391 9.3408 8.93252 9.36167L4.18325 9.74094C3.56183 9.79057 3.31039 10.5666 3.78461 10.9712L7.39904 14.0554C7.59925 14.2262 7.68672 14.4949 7.62542 14.7509L6.52045 19.3652C6.37552 19.9704 7.03337 20.4497 7.56505 20.1262L11.6365 17.649C11.86 17.5131 12.1406 17.5131 12.3642 17.649L16.4356 20.1262C16.9672 20.4497 17.6251 19.9704 17.4802 19.3652L16.3752 14.7509C16.3139 14.4949 16.4014 14.2262 16.6016 14.0554L20.216 10.9712C20.6902 10.5666 20.4388 9.79057 19.8174 9.74094L15.0681 9.36167C14.8067 9.3408 14.5789 9.17558 14.4779 8.93361L12.6463 4.54699C12.4067 3.97327 11.5939 3.97327 11.3544 4.54699L9.52275 8.93361ZM16.0179 7.43115L14.4918 3.77638C13.5679 1.56346 10.4328 1.56348 9.50877 3.77638L7.98275 7.43115L4.02404 7.74729C1.62712 7.9387 0.65727 10.9318 2.48641 12.4926L5.49492 15.0597L4.57544 18.8994C4.0164 21.234 6.55383 23.0826 8.60461 21.8348L12.0003 19.7688L15.396 21.8348C17.4468 23.0826 19.9842 21.2339 19.4252 18.8994L18.5057 15.0597L21.5142 12.4926C23.3434 10.9318 22.3735 7.9387 19.9766 7.74729L16.0179 7.43115Z" fill="#67898F"/>
                                  </svg>
                                  <span>
-                                 <b>Wellness Park Facilities</b>
+                                 <b>Collaboration Objectives</b>
                                  </span>
                               </a>
                            </li>
                            <li>
                               <a href="#tab-7" data-scroll="tab-7">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.52275 8.93361C9.42172 9.17558 9.19391 9.3408 8.93252 9.36167L4.18325 9.74094C3.56183 9.79057 3.31039 10.5666 3.78461 10.9712L7.39904 14.0554C7.59925 14.2262 7.68672 14.4949 7.62542 14.7509L6.52045 19.3652C6.37552 19.9704 7.03337 20.4497 7.56505 20.1262L11.6365 17.649C11.86 17.5131 12.1406 17.5131 12.3642 17.649L16.4356 20.1262C16.9672 20.4497 17.6251 19.9704 17.4802 19.3652L16.3752 14.7509C16.3139 14.4949 16.4014 14.2262 16.6016 14.0554L20.216 10.9712C20.6902 10.5666 20.4388 9.79057 19.8174 9.74094L15.0681 9.36167C14.8067 9.3408 14.5789 9.17558 14.4779 8.93361L12.6463 4.54699C12.4067 3.97327 11.5939 3.97327 11.3544 4.54699L9.52275 8.93361ZM16.0179 7.43115L14.4918 3.77638C13.5679 1.56346 10.4328 1.56348 9.50877 3.77638L7.98275 7.43115L4.02404 7.74729C1.62712 7.9387 0.65727 10.9318 2.48641 12.4926L5.49492 15.0597L4.57544 18.8994C4.0164 21.234 6.55383 23.0826 8.60461 21.8348L12.0003 19.7688L15.396 21.8348C17.4468 23.0826 19.9842 21.2339 19.4252 18.8994L18.5057 15.0597L21.5142 12.4926C23.3434 10.9318 22.3735 7.9387 19.9766 7.74729L16.0179 7.43115Z" fill="#67898F"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 2C2.44772 2 2 2.44772 2 3C2 3.55228 2.44772 4 3 4H4V18C4 20.2091 5.79086 22 8 22H16C18.2091 22 20 20.2091 20 18V4H21C21.5523 4 22 3.55228 22 3C22 2.44772 21.5523 2 21 2H3ZM18 4H6V18C6 19.1046 6.89543 20 8 20H16C17.1046 20 18 19.1046 18 18V4Z" fill="#67898F"/>
+                                    <path d="M12.7071 7.29289C12.3166 6.90237 11.6834 6.90237 11.2929 7.29289L8.29289 10.2929C7.90237 10.6834 7.90237 11.3166 8.29289 11.7071C8.68342 12.0976 9.31658 12.0976 9.70711 11.7071L11 10.4142V16C11 16.5523 11.4477 17 12 17C12.5523 17 13 16.5523 13 16V10.4142L14.2929 11.7071C14.6834 12.0976 15.3166 12.0976 15.7071 11.7071C16.0976 11.3166 16.0976 10.6834 15.7071 10.2929L12.7071 7.29289Z" fill="#67898F"/>
                                  </svg>
                                  <span>
-                                 <b>Other Facilities</b>
+                                 <b>Partnership Structure</b>
                                  </span>
                               </a>
                            </li>
                            <li>
                               <a href="#tab-8" data-scroll="tab-8">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 2C2.44772 2 2 2.44772 2 3C2 3.55228 2.44772 4 3 4H4V18C4 20.2091 5.79086 22 8 22H16C18.2091 22 20 20.2091 20 18V4H21C21.5523 4 22 3.55228 22 3C22 2.44772 21.5523 2 21 2H3ZM18 4H6V18C6 19.1046 6.89543 20 8 20H16C17.1046 20 18 19.1046 18 18V4Z" fill="#67898F"/>
-                                    <path d="M12.7071 7.29289C12.3166 6.90237 11.6834 6.90237 11.2929 7.29289L8.29289 10.2929C7.90237 10.6834 7.90237 11.3166 8.29289 11.7071C8.68342 12.0976 9.31658 12.0976 9.70711 11.7071L11 10.4142V16C11 16.5523 11.4477 17 12 17C12.5523 17 13 16.5523 13 16V10.4142L14.2929 11.7071C14.6834 12.0976 15.3166 12.0976 15.7071 11.7071C16.0976 11.3166 16.0976 10.6834 15.7071 10.2929L12.7071 7.29289Z" fill="#67898F"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4H18C19.1046 4 20 4.89543 20 6V11H4V6C4 4.89543 4.89543 4 6 4ZM4 13V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V13H4Z" fill="#67898F"/>
+                                    <path d="M10 6C9.44772 6 9 6.44772 9 7C9 7.55228 9.44772 8 10 8H14C14.5523 8 15 7.55228 15 7C15 6.44772 14.5523 6 14 6H10Z" fill="#67898F"/>
+                                    <path d="M10 15C9.44772 15 9 15.4477 9 16C9 16.5523 9.44772 17 10 17H14C14.5523 17 15 16.5523 15 16C15 15.4477 14.5523 15 14 15H10Z" fill="#67898F"/>
                                  </svg>
                                  <span>
-                                 <b>Budget and Family Details</b>
+                                 <b>Legal and Compliance</b>
                                  </span>
                               </a>
                            </li>
@@ -95,19 +106,31 @@
                                     <path d="M10 15C9.44772 15 9 15.4477 9 16C9 16.5523 9.44772 17 10 17H14C14.5523 17 15 16.5523 15 16C15 15.4477 14.5523 15 14 15H10Z" fill="#67898F"/>
                                  </svg>
                                  <span>
-                                 <b>Interest in Additional Income</b>
+                                 <b>Additional Information</b>
+                                 </span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#tab-10" data-scroll="tab-10">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4H18C19.1046 4 20 4.89543 20 6V11H4V6C4 4.89543 4.89543 4 6 4ZM4 13V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V13H4Z" fill="#67898F"/>
+                                    <path d="M10 6C9.44772 6 9 6.44772 9 7C9 7.55228 9.44772 8 10 8H14C14.5523 8 15 7.55228 15 7C15 6.44772 14.5523 6 14 6H10Z" fill="#67898F"/>
+                                    <path d="M10 15C9.44772 15 9 15.4477 9 16C9 16.5523 9.44772 17 10 17H14C14.5523 17 15 16.5523 15 16C15 15.4477 14.5523 15 14 15H10Z" fill="#67898F"/>
+                                 </svg>
+                                 <span>
+                                 <b>Declaration</b>
                                  </span>
                               </a>
                            </li>
                            <li class="ogout-link">
-                              <a href="login.html" data-scroll="tab-10">
+                              <a href="login.html" data-scroll="tab-11">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1096 13.7506C10.6155 13.7315 11.0411 14.1261 11.0602 14.632C11.1033 15.7725 11.1638 16.605 11.2232 17.2018C11.2818 17.7895 11.6366 18.1432 12.1312 18.2036C12.7144 18.2749 13.5372 18.3333 14.6662 18.3333C15.7953 18.3333 16.618 18.2749 17.2012 18.2036C17.6956 18.1432 18.0506 17.7894 18.1092 17.2015C18.2195 16.0937 18.3329 14.1797 18.3329 11C18.3329 7.82021 18.2195 5.90623 18.1092 4.79841C18.0506 4.21051 17.6956 3.85671 17.2012 3.79627C16.618 3.72498 15.7953 3.66662 14.6662 3.66662C13.5372 3.66662 12.7144 3.72497 12.1312 3.79627C11.6366 3.85673 11.2818 4.21037 11.2232 4.79813C11.1638 5.39495 11.1033 6.22737 11.0602 7.36787C11.0411 7.87377 10.6155 8.2684 10.1096 8.24931C9.60374 8.23021 9.20911 7.80461 9.2282 7.29871C9.2724 6.1281 9.33505 5.25743 9.39891 4.61639C9.53316 3.26874 10.4728 2.15202 11.9088 1.97648C12.5772 1.89477 13.4753 1.83329 14.6662 1.83329C15.8572 1.83329 16.7552 1.89477 17.4237 1.97649C18.8598 2.15205 19.7992 3.26929 19.9335 4.61668C20.0517 5.80308 20.1662 7.78106 20.1662 11C20.1662 14.2189 20.0516 16.1968 19.9335 17.3832C19.7992 18.7306 18.8598 19.8479 17.4237 20.0234C16.7552 20.1051 15.8572 20.1666 14.6662 20.1666C13.4753 20.1666 12.5772 20.1051 11.9088 20.0234C10.4728 19.8479 9.53316 18.7312 9.39891 17.3835C9.33505 16.7425 9.2724 15.8718 9.2282 14.7012C9.20911 14.1953 9.60374 13.7697 10.1096 13.7506Z" fill="#FE4D4D"/>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.60652 13.5602C6.96451 13.9181 6.96451 14.4985 6.60652 14.8565C6.24854 15.2145 5.66814 15.2145 5.31016 14.8565L2.10183 11.6482C1.74385 11.2902 1.74385 10.7098 2.10183 10.3518L5.31016 7.14349C5.66814 6.7855 6.24854 6.7855 6.60652 7.14349C6.96451 7.50147 6.96451 8.08187 6.60652 8.43985L4.96304 10.0833H13.75C14.2563 10.0833 14.6667 10.4937 14.6667 11C14.6667 11.5063 14.2563 11.9167 13.75 11.9167L4.96304 11.9167L6.60652 13.5602Z" fill="#FE4D4D"/>
                                  </svg>
                                  <span>
-                                 <b>Completed </b>
-                                 See you soon!
+                                 <b>Completed!<br>
+                                    See you soon ! </b>
                                  </span>
                               </a>
                            </li>
@@ -119,167 +142,154 @@
 
                         <div id="tab-2" class="my-acc-right-content">
                            <div class="section-title"><br><br>
-                              <h2>Introduction</h2>
+                              <center>
+                                 <h4>A Project By </h4><br>
+                                 <h3>ARANEA ECO VISTA PVT LTD</h3><br>
+                                 <h3>Collaboration Partnership Form </h3>
+                              </center>
                            </div>
                            <div class="form-wrapper">
-                              <form id="form-tab-2" novalidate>
-                                 <div class="form-container">
-                                    <div class="form-group">
-                                       <label for="whoAreYou">Who are you?<sup aria-hidden="true">*</sup></label>
-                                       <select id="whoAreYou" name="whoAreYou" class="form-control" required>
-                                          <option value="" disabled selected>Select an option</option>
-                                          <option value="active-senior-living">Active Senior Living</option>
-                                          <option value="returning-home">Returning Home</option>
-                                          <option value="early-retirement">Early Retirement</option>
-                                          <option value="investment-property">Investment Property</option>
-                                          <option value="second-home">Second Home</option>
-                                          <option value="nri-vacation-home">NRI Vacation Home</option>
-                                       </select>
-                                    </div>
-                                 </div>
-                              </form>
+                           <p style="text-align: justify;">
+                                 &nbsp&nbsp&nbsp&nbsp&nbsp We are excited to explore potential collaborations with organizations and individuals who share our vision 
+                                 for sustainable development and innovative community living. God's Line: The Nest Eco City is a 
+                                 groundbreaking project focused on creating a harmonious blend of modern living and environmental 
+                                 stewardship. Please fill out the form below to provide your details and express your interest in partnering 
+                                 with us. 
+                              </p>
                            </div>
                         </div>
 
 
                         <div id="tab-3" class="my-acc-right-content">
                            <div class="section-title"><br><br>
-                              <h2>About Us (All fields are mandatory)</h2>
+                              <h2>Organization / Individual Information: </h2>
                            </div>
                            <div class="form-wrapper">
                               <form id="form-tab-3">
                                  <div class="form-container">
                                     <div class="row">
-                                       <!-- First Name -->
+                                       <!-- Organization Name -->
                                        <div class="col-md-6 col-12">
                                           <div class="form-group">
-                                             <label for="firstName">First Name<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="firstName" class="form-control" placeholder="Enter first name" required="">
+                                             <label for="organization_name">Organization Name:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="organization_name" class="form-control" placeholder="Enter organization name" required="">
                                           </div>
                                        </div>
-                                       <!-- Last Name -->
+                                       <!-- Type of Organization -->
                                        <div class="col-md-6 col-12">
                                           <div class="form-group">
-                                             <label for="lastName">Last Name<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="lastName" class="form-control" placeholder="Enter last name" required="">
-                                          </div>
-                                       </div>
-                                       <!-- Gender -->
-                                       <div class="col-md-6 col-12">
-                                          <div class="form-group">
-                                             <label for="gender">Gender<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="gender" name="gender" class="form-control" required>
-                                                <option value="" disabled selected>Select your gender</option>
-                                                <option value="male">Male</option>
-                                                <option value="female">Female</option>
-                                                <option value="other">Other</option>
+                                           <label for="type_of_organization">Type of Organization:</label>
+                                             <select id="type_of_organization" name="type_of_organization" class="form-control" required onchange="toggleOtherOrganization()">
+                                                <option value="" disabled selected>Select an option</option>
+                                                <option value="private_company">Private Company </option>
+                                                <option value="non_profit_organization">Non-Profit Organization</option>
+                                                <option value="govt_agency">Government Agency </option>
+                                                <option value="educational_institution">Educational Institution </option>
+                                                <option value="individual">Individual</option>
+                                                <option value="any_other">Any other</option>
                                              </select>
+                                             <br><br>
+                                             <textarea id="other_type_of_organization" name="other_type_of_organization" rows="4" cols="50" placeholder="Please specify" style="display:none;"></textarea>
                                           </div>
                                        </div>
-                                       <!-- Nationality -->
+                                       <!-- Registration Number -->
                                        <div class="col-md-6 col-12">
                                           <div class="form-group">
-                                             <label for="nationality">Nationality<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="nationality" class="form-control" placeholder="Enter nationality" required="">
+                                             <label for="registration_number">Registration Number (If applicable):</label>
+                                             <input type="number" id="registration_number" class="form-control" placeholder="Enter registration number" required="">
                                           </div>
                                        </div>
-                                       <!-- Age -->
+                                       <!-- Country of Registration: -->
                                        <div class="col-md-6 col-12">
                                           <div class="form-group">
-                                             <label for="age">Age<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="age" class="form-control" placeholder="Enter age" required="">
+                                             <label for="country_of_registration">Country of Registration:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="country_of_registration" class="form-control" placeholder="Enter Country of Registration" required="">
                                           </div>
                                        </div>
-                                       <!-- Phone -->
+                                       <!-- Headquarters Address -->
                                        <div class="col-md-6 col-12">
                                           <div class="form-group">
-                                             <label for="phone">Phone<sup aria-hidden="true">*</sup>:</label>
+                                             <label for="headquarters_address">Headquarters Address:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="headquarters_address" class="form-control" placeholder="Enter Headquarters Address" required="">
+                                          </div>
+                                       </div>
+                                       <!-- City:  -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="city">City: <sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="city" class="form-control" placeholder="Enter city" required="">
+                                          </div>
+                                       </div>
+                                       <!-- State/Province: -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="state_or_province">State/Province:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="state_or_province" class="form-control" placeholder="Enter State/Province" required="">
+                                          </div>
+                                       </div>
+                                       <!-- Postal Code: -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="postatl_code">Postal Code:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="number" id="postatl_code" class="form-control" placeholder="Enter Postal Code" required="">
+                                          </div>
+                                       </div>
+                                       <!-- Country: -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="country">Country:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="country" class="form-control" placeholder="Enter country" required="">
+                                          </div>
+                                       </div>
+                                       <!-- Phone Number: -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="phone">Phone Number:<sup aria-hidden="true">*</sup>:</label>
                                              <input type="text" id="phone" class="form-control" placeholder="Enter phone number" required="">
                                           </div>
                                        </div>
-                                       <!-- Email ID -->
+                                       <!-- Website: -->
                                        <div class="col-md-6 col-12">
                                           <div class="form-group">
-                                             <label for="email">Email ID<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="email" id="email" class="form-control" placeholder="Enter email ID" required="">
-                                          </div>
-                                       </div>
-                                       <!-- Designation -->
-                                       <div class="col-md-6 col-12">
-                                          <div class="form-group">
-                                             <label for="designation">Designation<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="designation" class="form-control" placeholder="Enter designation" required="">
-                                          </div>
-                                       </div>
-                                       <!-- Current Residential Location -->
-                                       <div class="col-md-6 col-12">
-                                          <div class="form-group">
-                                             <label for="currentLocation">Current Residential Location<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="currentLocation" class="form-control" placeholder="Enter current residential location" required="">
-                                          </div>
-                                       </div>
-                                       <!-- Hometown -->
-                                       <div class="col-md-6 col-12">
-                                          <div class="form-group">
-                                             <label for="hometown">Hometown<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="hometown" class="form-control" placeholder="Enter hometown" required="">
-                                          </div>
-                                       </div>
-                                       <!-- Project Location -->
-                                       <div class="col-md-6 col-12">
-                                          <div class="form-group">
-                                             <label for="projectLocation">Project Location<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="projectLocation" class="form-control" placeholder="Enter project location" required="">
-                                          </div>
-                                       </div>
-                                       <!-- Interested District -->
-                                       <div class="col-md-6 col-12">
-                                          <div class="form-group">
-                                             <label for="interestedDistrict">Interested District<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="interestedDistrict" class="form-control" placeholder="Enter interested district" required="">
-                                          </div>
-                                       </div>
-                                       <!-- How far from the city? -->
-                                       <div class="col-md-6 col-12">
-                                          <div class="form-group">
-                                             <label for="distanceFromCity">How far from the city?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="text" id="distanceFromCity" class="form-control" placeholder="Enter distance from the city" required="">
+                                             <label for="website">Website:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="website" class="form-control" placeholder="Enter website" required="">
                                           </div>
                                        </div>
                                     </div>
                                  </div>
-                                 <!-- <div class="form-container"> -->
-                                 <!-- <div class="d-flex acc-back-btn-wrp align-items-center justify-content-end"> -->
-                                 <!-- <button class="btn-secondary back-btn-acc" type="button">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="14" viewBox="0 0 35 14" fill="none">
-                                        <path d="M25.0749 14L35 7L25.0805 0L29.12 6.06667H0V7.93333H29.12L25.0749 14Z"></path>
-                                    </svg>
-                                    Back 
-                                    </button> 
-                                    <button class="btn continue-btn" type="button" onclick="scrollToNextTab()">
-                                    Continue
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="14" viewBox="0 0 35 14" fill="none">
-                                        <path d="M25.0749 14L35 7L25.0805 0L29.12 6.06667H0V7.93333H29.12L25.0749 14Z"></path>
-                                    </svg>
-                                    </button>  -->
-                                 <!-- <script>
-                                    function scrollToNextTab() {
-                                        const form = document.getElementById('form-tab-3');
-                                        if (form) {
-                                            if (form.checkValidity()) {
-                                                // Scroll to the next section
-                                                document.getElementById('tab-4').scrollIntoView({ behavior: 'smooth' });
-                                            } else {
-                                                // If form is not valid, show validation error
-                                                form.reportValidity();
-                                            }
-                                        } else {
-                                            console.error('Form not found');
-                                        }
-                                    }
-                                    </script> -->
-                                 <!-- </div>  -->
-                                 <!-- </div> -->
+                                 <div class="form-container">
+                                    <h4>Primary Contact Person Details : </h4><br><br>
+                                    <div class="row">
+                                       <!--  Primary Contact Person: -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="primary_contact_person">Primary Contact Person:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="primary_contact_person" class="form-control" placeholder="Enter name of primary contact person" required="">
+                                          </div>
+                                       </div>
+                                       <!--  Title/Position:  -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="title_or_position">Title/Position: <sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="title_or_position" class="form-control" placeholder="Enter Title/Position" required="">
+                                          </div>
+                                       </div>
+                                       <!--  Email Address: -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="email_primary_contact">Email Address:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="email" id="email_primary_contact" class="form-control" placeholder="Enter email" required="">
+                                          </div>
+                                       </div>
+                                       <!--  Phone Number: -->
+                                       <div class="col-md-6 col-12">
+                                          <div class="form-group">
+                                             <label for="phone_primary_contact">Phone Number:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="text" id="phone_primary_contact" class="form-control" placeholder="Enter phone number" required="">
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
                               </form>
                            </div>
                         </div>
@@ -287,564 +297,288 @@
 
                         <div id="tab-4" class="my-acc-right-content">
                            <div class="section-title"><br><br>
-                              <h2>Which type of house are you interested in?</h2>
+                              <h2>Collaboration Interest:</h2>
                            </div>
                            <div class="form-wrapper">
                               <form>
-                                 <div class="form-container">
-                                    <div class="row">
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="houseType">Please select a type of house<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="houseType" name="houseType" class="form-control" required onchange="handleHouseTypeChange()">
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="farmhouse">Farm House</option>
-                                                <option value="villa">Villa</option>
-                                                <option value="resort">Resort</option>
-                                                <option value="any-other">Any other</option>
-                                             </select>
-                                          </div>
-                                       </div>
+                                 <!--  Collaboration Interest:  -->
+                                 <div class="facilities-options">
+                                    <div class="form-group">
+                                       <h4><br>&nbsp Area of Collaboration Interest:</h4><br>
+                                       <!-- Checkboxes for wellness park facilities -->
+                                       <label><input type="checkbox" name="collaboration_interest" value="sustainable_construction"> Sustainable Construction & Development</label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="renewable_energy"> Renewable Energy & Green Technology </label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="water_and_energy_management"> Water & Energy Management</label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="healthcare_and_community"> Healthcare & Community Services </label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="smart_city"> Smart City Infrastructure</label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="education_and_skill"> Education & Skill Development </label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="community_engagement"> Community Engagement & Social Responsibility</label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="environment_condtruction"> Environmental Conservation & Biodiversity </label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="technology_integration"> Technology Integration (AI, IoT, Blockchain, etc.)</label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="investment_and_funding"> Investment & Funding</label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="research_and_development"> Research & Development </label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="marketing_and_public_relations"> Marketing & Public Relations</label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="other"> Other</label>
+
+                                       <br>
+                                       <input type="text" id="collaboration_interest_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
                                     </div>
                                  </div>
-                                 <!-- Farm House Additional Fields -->
-                                 <div id="farmHouseFields" class="form-container" style="display: none;">
-                                    <div class="row">
-                                       <!-- Type of farm -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="farmType">Type of farm?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="farmType" name="farmType" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="flower">Flower</option>
-                                                <option value="fruits">Fruits</option>
-                                                <option value="other">Other</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- How many acres? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="acres">How many acres?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="acres" name="acres" class="form-control" placeholder="Enter number of acres" required>
-                                          </div>
-                                       </div>
-                                       <!-- Facility management needed? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="facilityManagement">Facility management needed?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="facilityManagement" name="facilityManagement" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Any additional services needed? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="additionalServices">Any additional services needed?<sup aria-hidden="true">*</sup>:</label>
-                                             <textarea id="additionalServices" name="additionalServices" class="form-control" placeholder="Describe any additional services you may need"></textarea>
-                                          </div>
-                                       </div>
+                                 <!-- Brief Description of Collaboration Proposal -->
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label for="collaboration_proposal"><br>Brief Description of Collaboration Proposal : <br>Please provide a summary of how you wish to 
+                                       collaborate with us and what value your organization/partnership can bring to the project.</label>
+                                          <input type="text" id="collaboration_proposal" class="form-control" placeholder="Please provide a summary" required="">   
                                     </div>
                                  </div>
-                                 <!-- Villa Additional Fields -->
-                                 <div id="villaFields" class="form-container" style="display: none;">
-                                    <div class="row">
-                                       <!-- How many bedrooms? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="bedrooms">How many bedrooms?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="bedrooms" name="bedrooms" class="form-control" placeholder="Enter number of bedrooms" required>
-                                          </div>
-                                       </div>
-                                       <!-- How many square feet? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="squareFeet">How many square feet?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="squareFeet" name="squareFeet" class="form-control" placeholder="Enter square feet" required>
-                                          </div>
-                                       </div>
-                                       <!-- Master bedroom size? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="masterBedroomSize">Master bedroom size?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="masterBedroomSize" name="masterBedroomSize" class="form-control" placeholder="Enter master bedroom size" required>
-                                          </div>
-                                       </div>
-                                       <!-- Living room size? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="livingRoomSize">Living room size?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="livingRoomSize" name="livingRoomSize" class="form-control" placeholder="Enter living room size" required>
-                                          </div>
-                                       </div>
-                                       <!-- Bedroom size? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="bedroomSize">Bedroom size?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="bedroomSize" name="bedroomSize" class="form-control" placeholder="Enter bedroom size" required>
-                                          </div>
-                                       </div>
-                                       <!-- Bathroom size? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="bathroomSize">Bathroom size?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="bathroomSize" name="bathroomSize" class="form-control" placeholder="Enter bathroom size" required>
-                                          </div>
-                                       </div>
-                                       <!-- Need swimming pool? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="swimmingPool">Need swimming pool?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="swimmingPool" name="swimmingPool" class="form-control" required onchange="handleSwimmingPoolChange()">
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Swimming pool size? (Only if Yes is selected) -->
-                                       <div id="poolSizeField" class="col-md-12 col-12" style="display: none;">
-                                          <div class="form-group">
-                                             <label for="poolSize">Swimming pool size?<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="poolSize" name="poolSize" class="form-control" placeholder="Enter pool size">
-                                          </div>
-                                       </div>
-                                       <!-- Facility management needed? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="facilityManagementVilla">Facility management needed?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="facilityManagementVilla" name="facilityManagementVilla" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Need site visiting? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="siteVisiting">Need site visiting?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="siteVisiting" name="siteVisiting" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Online booking? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="onlineBooking">Online booking?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="onlineBooking" name="onlineBooking" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Real-time monitoring needed? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="realTimeMonitoring">Real-time monitoring needed?<sup aria-hidden="true">*</sup> (smart home facility):</label>
-                                             <select id="realTimeMonitoring" name="realTimeMonitoring" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
+                                 <!-- Previous Experience in Similar Projects: -->
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label for="previous_experience"><br>Previous Experience in Similar Projects:</label>
+                                       <select id="previous_experience" name="previous_experience" class="form-control" required onchange="togglePreviousExperience()">
+                                          <option value="" disabled selected>Select an option</option>
+                                          <option value="yes">Yes </option>
+                                          <option value="no">No</option>
+                                       </select><br><br>
+                                    <input type="text" id="previous_experience_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
                                     </div>
                                  </div>
-                                 <!-- Resort Additional Fields -->
-                                 <div id="resortFields" class="form-container" style="display: none;">
-                                    <div class="row">
-                                       <!-- What type of resort? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="resortType">What type of resort?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="resortType" name="resortType" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="traditional-resort">Traditional resort</option>
-                                                <option value="contemporary-resort">Contemporary resort</option>
-                                                <option value="bamboo-resort">Bamboo resort</option>
-                                                <option value="n-structure-resort">N structure resort</option>
-                                                <option value="tent-house">Tent house</option>
-                                                <option value="floating-resort">Floating resort</option>
-                                                <option value="pre-moduled-home">Pre-moduled home</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Need camp site? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="campSite">Need camp site?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="campSite" name="campSite" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Need pub? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="pub">Need pub?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="pub" name="pub" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Need bar? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="bar">Need bar?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="bar" name="bar" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Open restaurant? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="restaurant">Open restaurant?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="restaurant" name="restaurant" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Any additional suggestions? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="additionalSuggestions">Any additional suggestions?<sup aria-hidden="true">*</sup>:</label>
-                                             <textarea id="additionalSuggestions" name="additionalSuggestions" class="form-control" placeholder="Enter any additional suggestions"></textarea>
-                                          </div>
-                                       </div>
-                                       <!-- Need yoga or meditations? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="yogaMeditations">Need yoga or meditations?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="yogaMeditations" name="yogaMeditations" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- Need indoor games? -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="indoorGames">Need indoor games?<sup aria-hidden="true">*</sup>:</label>
-                                             <select id="indoorGames" name="indoorGames" class="form-control" required>
-                                                <option value="" disabled selected>Select an option</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                             </select>
-                                          </div>
-                                       </div>
-                                       <!-- If any other, type your suggestions -->
-                                       <div class="col-md-12 col-12">
-                                          <div class="form-group">
-                                             <label for="otherSuggestions">If any other, type your suggestions:</label>
-                                             <textarea id="otherSuggestions" name="otherSuggestions" class="form-control" placeholder="Enter your suggestions"></textarea>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <!-- <div class="form-container">   
-                                    <div class="d-flex acc-back-btn-wrp align-items-center justify-content-end">
-                                        <button class="btn-secondary back-btn-acc" type="button">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="14" viewBox="0 0 35 14" fill="none">
-                                                <path d="M25.0749 14L35 7L25.0805 0L29.12 6.06667H0V7.93333H29.12L25.0749 14Z"></path>
-                                            </svg>
-                                            Back 
-                                        </button> 
-                                        <button class="btn continue-btn" type="submit">
-                                            Continue
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="14" viewBox="0 0 35 14" fill="none">
-                                                <path d="M25.0749 14L35 7L25.0805 0L29.12 6.06667H0V7.93333H29.12L25.0749 14Z"></path>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                    </div> -->
+                                 
                               </form>
                            </div>
                         </div>
-                        <script>
-                           function handleHouseTypeChange() {
-                              const houseType = document.getElementById('houseType').value;
-                              const farmHouseFields = document.getElementById('farmHouseFields');
-                              const villaFields = document.getElementById('villaFields');
-                              const resortFields = document.getElementById('resortFields');
-
-                              
-                              if (houseType === 'villa') {
-                                 villaFields.style.display = 'block';
-                                 farmHouseFields.style.display = 'none';
-                                 resortFields.style.display = 'none';
-                                  
-                                  // Clear farmhouse and resort fields
-                                  document.getElementById('farmType').value = null;
-                                  document.getElementById('acres').value = null;
-                                  document.getElementById('facilityManagement').value = null;
-                                  document.getElementById('additionalServices').value = null;
-
-                                  document.getElementById('resortType').value = null;
-                                  document.getElementById('campSite').value = null;
-                                  document.getElementById('pub').value = null;
-                                  document.getElementById('bar').value = null;
-                                  document.getElementById('restaurant').value = null;
-                                  document.getElementById('additionalSuggestions').value = null;
-                                  document.getElementById('yogaMeditations').value = null;
-                                  document.getElementById('indoorGames').value = null;
-                                  document.getElementById('otherSuggestions').value = null;
-
-                              } else if (houseType === 'farmhouse') {
-                                 farmHouseFields.style.display = 'block';
-                                 villaFields.style.display = 'none';
-                                 resortFields.style.display = 'none';
-                                  
-                                  // Clear villa and resort fields
-                                  document.getElementById('bedrooms').value = null;
-                                  document.getElementById('squareFeet').value = null;
-                                  document.getElementById('masterBedroomSize').value = null;
-                                  document.getElementById('livingRoomSize').value = null;
-                                  document.getElementById('bedroomSize').value = null;
-                                  document.getElementById('bathroomSize').value = null;
-                                  document.getElementById('swimmingPool').value = null;
-                                  document.getElementById('poolSize').value = null;
-                                  document.getElementById('facilityManagementVilla').value = null;
-                                  document.getElementById('siteVisiting').value = null;
-                                  document.getElementById('onlineBooking').value = null;
-                                  document.getElementById('realTimeMonitoring').value = null;
-
-                                  document.getElementById('resortType').value = null;
-                                  document.getElementById('campSite').value = null;
-                                  document.getElementById('pub').value = null;
-                                  document.getElementById('bar').value = null;
-                                  document.getElementById('restaurant').value = null;
-                                  document.getElementById('additionalSuggestions').value = null;
-                                  document.getElementById('yogaMeditations').value = null;
-                                  document.getElementById('indoorGames').value = null;
-                                  document.getElementById('otherSuggestions').value = null;
-
-                              } else if (houseType === 'resort') {
-                                 resortFields.style.display = 'block';
-                                 farmHouseFields.style.display = 'none';
-                                 villaFields.style.display = 'none';
-                                  
-                                  // Clear villa and farmhouse fields
-                                  document.getElementById('farmType').value = null;
-                                  document.getElementById('acres').value = null;
-                                  document.getElementById('facilityManagement').value = null;
-                                  document.getElementById('additionalServices').value = null;
-
-                                  document.getElementById('bedrooms').value = null;
-                                  document.getElementById('squareFeet').value = null;
-                                  document.getElementById('masterBedroomSize').value = null;
-                                  document.getElementById('livingRoomSize').value = null;
-                                  document.getElementById('bedroomSize').value = null;
-                                  document.getElementById('bathroomSize').value = null;
-                                  document.getElementById('swimmingPool').value = null;
-                                  document.getElementById('poolSize').value = null;
-                                  document.getElementById('facilityManagementVilla').value = null;
-                                  document.getElementById('siteVisiting').value = null;
-                                  document.getElementById('onlineBooking').value = null;
-                                  document.getElementById('realTimeMonitoring').value = null;
-                                  
-                              } else {
-                                 farmHouseFields.style.display = 'none';
-                                 villaFields.style.display = 'none';
-                                 resortFields.style.display = 'none';
-                                  
-                                  // Clear all fields
-                                  document.getElementById('farmType').value = null;
-                                  document.getElementById('acres').value = null;
-                                  document.getElementById('facilityManagement').value = null;
-                                  document.getElementById('additionalServices').value = null;
-
-                                  document.getElementById('bedrooms').value = null;
-                                  document.getElementById('squareFeet').value = null;
-                                  document.getElementById('masterBedroomSize').value = null;
-                                  document.getElementById('livingRoomSize').value = null;
-                                  document.getElementById('bedroomSize').value = null;
-                                  document.getElementById('bathroomSize').value = null;
-                                  document.getElementById('swimmingPool').value = null;
-                                  document.getElementById('poolSize').value = null;
-                                  document.getElementById('facilityManagementVilla').value = null;
-                                  document.getElementById('siteVisiting').value = null;
-                                  document.getElementById('onlineBooking').value = null;
-                                  document.getElementById('realTimeMonitoring').value = null;
-
-                                  document.getElementById('resortType').value = null;
-                                  document.getElementById('campSite').value = null;
-                                  document.getElementById('pub').value = null;
-                                  document.getElementById('bar').value = null;
-                                  document.getElementById('restaurant').value = null;
-                                  document.getElementById('additionalSuggestions').value = null;
-                                  document.getElementById('yogaMeditations').value = null;
-                                  document.getElementById('indoorGames').value = null;
-                                  document.getElementById('otherSuggestions').value = null;
-                              }
-                           }
-                         
-                        function handleSwimmingPoolChange() {
-                           const swimmingPool = document.getElementById('swimmingPool').value;
-                           const poolSizeField = document.getElementById('poolSizeField');
-                           
-                           if (swimmingPool === 'yes') {
-                               poolSizeField.style.display = 'block';
-                           } else {
-                               poolSizeField.style.display = 'none';
-                               document.getElementById('poolSize').value = null; // Clear the pool size input
-                           }
-                           }
-
-
-                        </script>
-
-
-                        <div id="tab-6" class="my-acc-right-content"><br><br>
-                           <div class="section-title d-flex align-items-center justify-content-between">
-                              <h2>Wellness Park</h2>
+                  
+                        <div id="tab-5" class="my-acc-right-content">
+                           <div class="section-title"><br><br>
+                              <h2> Expertise and Resources:</h2>
                            </div>
-                           <div class="wellness-park-section">
-                              <h4>What facilities are you interested in our wellness park?</h4><br>
-                              <div class="facilities-options">
-                                 <div class="form-group">
-                                    <!-- Checkboxes for wellness park facilities -->
-                                    <label><input type="checkbox" name="wellness_facilities" value="occupational-wellness"> Occupational wellness</label>
-                                    <label><input type="checkbox" name="wellness_facilities" value="financial-wellness"> Financial wellness</label>
-                                    <label><input type="checkbox" name="wellness_facilities" value="anti-aging"> Anti-aging</label>
-                                    <label><input type="checkbox" name="wellness_facilities" value="environmental-wellness"> Environmental wellness</label>
-                                    <label><input type="checkbox" name="wellness_facilities" value="spiritual-wellness"> Spiritual wellness</label>
-                                    <label><input type="checkbox" name="wellness_facilities" value="intellectual-wellness"> Intellectual wellness</label>
-                                    <label><input type="checkbox" name="wellness_facilities" value="physical-wellness"> Physical wellness</label>
-                                    <label><input type="checkbox" name="wellness_facilities" value="social-wellness"> Social wellness</label>
+                           <div class="form-wrapper">
+                              <form>
+                                 <!--  Expertise and Resources:  -->
+                                 <div class="facilities-options">
+                                    <div class="form-group">
+                                       <h4><br>&nbsp What Expertise Can You/Your Organization Offer? </h4><br>
+                                       <!-- What Expertise Can You/Your Organization Offer?  -->
+                                       <label><input type="checkbox" name="expertise_to_offer" value="architectural_and_design"> Architectural & Design Expertise</label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="engineering_and_construction"> Engineering & Construction  </label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="technology_development"> Technology Development </label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="environmental_consulting"> Environmental Consulting </label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="financial_investment_and_advisory"> Financial Investment & Advisory</label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="legal_and_regulatory_compliance"> Legal & Regulatory Compliance </label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="marketing_and_branding"> Marketing & Branding</label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="community_engagement"> Community Engagement </label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="research_and_innovation"> Research & Innovation </label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="project_management"> Project Management</label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="other"> Other</label>
+
+                                       <br>
+                                       <input type="text" id="expertise_to_offer_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
+                                    </div>
                                  </div>
-                              </div>
-                              <div class="form-group"><br>
-                                 <!-- Dropdown for smart home facility -->
-                                 <label for="smartHome">Need smart home facility?<sup aria-hidden="true">*</sup>:</label><br>
-                                 <select id="smartHome" name="smartHome" class="form-control" required>
-                                    <option value="not" disabled selected>Select an option</option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
-                                 </select>
-                              </div>
+                                 <!-- Brief Description of Collaboration Proposal -->
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label for="resource_for_collaboration">Available Resources for Collaboration: <sup aria-hidden="true">*</sup>:</label>
+                                       <select id="resource_for_collaboration" name="resource_for_collaboration" class="form-control" required onchange="toggleResourceForCollaboration()">
+                                          <option value="" disabled selected>Select an option</option>
+                                          <option value="skilled_workforce">Skilled Workforce</option>
+                                          <option value="technological_tools_and_equipment">Technological Tools & Equipment </option>
+                                          <option value="financial_capital">Financial Capital </option>
+                                          <option value="research_and_data">Research & Data</option>
+                                          <option value="legal_and_regulatory_support">Legal & Regulatory Support </option>
+                                          <option value="educational_programs_and_training">Educational Programs & Training </option>
+                                          <option value="marketing_channels">Marketing Channels</option>
+                                          <option value="other">Other</option>
+                                       </select><br>
+                                       <input type="text" id="resource_for_collaboration_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+
+                        <div id="tab-6" class="my-acc-right-content">
+                           <div class="section-title"><br><br>
+                              <h2>Collaboration Objectives:</h2>
+                           </div>
+                           <div class="form-wrapper">
+                              <form>
+                                 <!--  Collaboration Objectives:  -->
+                                 <div class="facilities-options">
+                                 <label for="collaboration_objective">What are Your Primary Objectives in Collaborating with God's Line: The Nest Eco City? <sup aria-hidden="true">*</sup>:</label>
+                                    <div class="form-group"> 
+                                       
+                                       <!-- Checkboxes for wellness park facilities -->
+                                       <label><input type="checkbox" name="collaboration_objective" value="enhancing_sustainable_development"> Enhancing Sustainable Development </label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="expanding_market_reach"> Expanding Market Reach</label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="contributing_to_community_wellbeing"> Contributing to Community Well-being </label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="advancing_technological_innovation"> Advancing Technological Innovation </label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="achieving_environmental_impact"> Achieving Environmental Impact</label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="driving_economic_growth"> Driving Economic Growth </label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="knowledge_sharing_and_learning"> Knowledge Sharing & Learning </label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="building_longterm_partnerships"> Building Long-term Partnerships </label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="other"> Other</label>
+
+                                       <br>
+                                       <input type="text" id="collaboration_objective_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
                         </div>
 
                         <div id="tab-7" class="my-acc-right-content">
-                           <div class="section-title"><br><br><br><br>
-                              <h2>Other facilities</h2>
-                           </div>
-                           <div class="form-wrapper">
-                              <form><br>
-                              <div class="other-facilities-options">
-                              <div class="form-group">
-                                    <label><input type="checkbox" name="other_facilities" value="swimming-pool"> Swimming pool</label>
-                                    <label><input type="checkbox" name="other_facilities" value="football-turf"> Football turf</label>
-                                    <label><input type="checkbox" name="other_facilities" value="island-lake"> Island lake</label>
-                                    <label><input type="checkbox" name="other_facilities" value="flower-garden"> Flower garden</label>
-                                    <label><input type="checkbox" name="other_facilities" value="movie-studio"> Movie studio</label>
-                                    <label><input type="checkbox" name="other_facilities" value="cafeteria"> Cafeteria</label>
-                                    <label><input type="checkbox" name="other_facilities" value="super-market"> Super market</label>
-                                    <label><input type="checkbox" name="other_facilities" value="residents-conference-hall"> Residents conference hall</label>
-                                    <label><input type="checkbox" name="other_facilities" value="management-team"> 24x7 management team</label>
-                                    <label><input type="checkbox" name="other_facilities" value="natural-pond"> Natural pond</label>
-                                    <label><input type="checkbox" name="other_facilities" value="health-clinic"> Health clinic with wellness park</label>
-                              </form>
-                              </div></div>
-                           </div>
-                        </div>
-
-
-                        <div id="tab-8" class="my-acc-right-content">
                            <div class="section-title"><br><br>
-                              <h2>Budget Range</h2>
-                           </div>
-                           <div class="form-wrapper">
-                              <form onsubmit="return validateBudgetRange()">
-                                 <!-- Preferable Budget Range -->
-                                 <div class="form-container">
-                                    <div class="form-group">
-                                       <label for="budgetRange">Preferable Budget Range (20L minimum):<sup aria-hidden="true">*</sup></label>
-                                       <input type="text" id="budgetRange" name="budgetRange" class="form-control" placeholder="Enter your budget range" required>
-                                    </div>
-                                 <br><br>
-                                 <!-- Total Members in a Family -->
-                                 
-                                    <div class="form-group">
-                                       <label for="familyMembers">Total members in a family:<sup aria-hidden="true">*</sup></label>
-                                       <select id="familyMembers" name="familyMembers" class="form-control" required><br>
-                                          <option value="" disabled selected>Select an option</option>
-                                          <option value="single">Single</option>
-                                          <option value="couple">Couple</option>
-                                          <option value="family">Family</option>
-                                       </select>
-                                    </div>
-                                 </div>
-                              </form>
-                           </div>
-                        </div>
-                        
-                        <div id="tab-9" class="my-acc-right-content">
-                           <div class="section-title"><br><br>
-                              <h2>Additional Informations</h2>
+                              <h2>Partnership Structure: </h2>
                            </div>
                            <div class="form-wrapper">
                               <form>
-                                 <!-- Interested in Additional Income -->
-                                 <div class="form-container">
+                                 <!--  Partnership Structure:   -->
+                                 <div class="col-12 mt-4">
                                     <div class="form-group">
-                                       <label for="additionalIncome">Interested in additional income?<sup aria-hidden="true">*</sup></label><br>
-                                       <select id="additionalIncome" name="additionalIncome" class="form-control" required onchange="handleIncomeChange()">>
+                                       <h4><br>&nbsp Preferred Type of Partnership:</h4><br>
+                                       <!-- Checkboxes for wellness park facilities -->
+                                       <select id="partnership_type" name="partnership_type" class="form-control" required onchange="togglePartnershipStructure()">
                                           <option value="" disabled selected>Select an option</option>
-                                          <option value="yes">Yes</option>
-                                          <option value="no">No</option>
-                                       </select>
+                                          <option value="joint_venture">Joint Venture</option>
+                                          <option value="strategic_alliance">Strategic Alliance </option>
+                                          <option value="project_based_collaboration">Project-Based Collaboration</option>
+                                          <option value="research_partnership">Research Partnership</option>
+                                          <option value="sponsorship">Sponsorship</option>
+                                          <option value="advisory_role">Advisory Role</option>
+                                          <option value="other">Other</option>
+                                          </select><br>
+                                       <input type="text" id="partnership_type_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
                                     </div>
-                                 
-                                    <!-- Income Options - Hidden by Default -->
-                                    <div id="incomeOptions" class="form-group" style="display: none;"><br>
-                                       <label for="incomeOptions">If yes, select your preferred income options:</label>
-                                       <div class="form-wrapper">
-                                          <form>
-                                             <div class="income-options">
-                                                   <div class="form-group">
-                                                      <label><input type="checkbox" name="incomeType" value="rental-income"> Rental income</label><br>
-                                                      <label><input type="checkbox" name="incomeType" value="additional-income"> Additional income</label><br>
-                                                      <label><input type="checkbox" name="incomeType" value="roi-income"> ROI-based income</label>
-                                                   </div>
-                                             </div>
-                                       </div>
+                                 </div>
+                                 <!-- Proposed Timeline for Collaboration:  -->
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label for="collaboration_timeline"><br>Proposed Timeline for Collaboration: </label>
+                                       <select id="collaboration_timeline" name="collaboration_timeline" class="form-control" required>
+                                          <option value="" disabled selected>Select an option</option>
+                                          <option value="short_term">Short-term (6-12 months)</option>
+                                          <option value="medium_term">Medium-term (1-3 years) </option>
+                                          <option value="long_term">Long-term (3+ years)</option>
+                                       </select>
                                     </div>
                                  </div>
                               </form>
                            </div>
                         </div>
-                        <script>
-                           function handleIncomeChange() {
-                              const additionalIncome = document.getElementById('additionalIncome').value;
-                              const incomeOptions = document.getElementById('incomeOptions');
-                                                      
-                              if (additionalIncome === 'yes') {
-                                 incomeOptions.style.display = 'block';
-                              } else {
-                                 incomeOptions.style.display = 'none';
-                              }
-                           }
-                           
-                        </script>
+
+                        <div id="tab-8" class="my-acc-right-content">
+                           <div class="section-title"><br><br>
+                              <h2>Legal and Compliance:</h2>
+                           </div>
+                           <div class="form-wrapper">
+                              <form>
+                                 <!--  Collaboration Interest:  -->
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <!-- Do You Have Experience with Legal and Regulatory Compliance Related to Sustainable 
+                                       Development Projects? -->
+                                       <label for="legal_and_regulatory_experience">Do You Have Experience with Legal and Regulatory Compliance Related to Sustainable 
+                                       Development Projects? </label>
+                                       <select id="legal_and_regulatory_experience" name="legal_and_regulatory_experience" class="form-control" required>
+                                          <option value="" disabled selected>Select an option</option>
+                                          <option value="yes">Yes</option>
+                                          <option value="no">No </option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <!-- Brief Description of Collaboration Proposal -->
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label for="ethical_and_environmental_standards"><br>Are You Willing to Adhere to the Ethical and Environmental Standards Set by God's Line: 
+                                          The Nest Eco City? </label>
+                                       <select id="ethical_and_environmental_standards" name="ethical_and_environmental_standards" class="form-control" required>
+                                          <option value="" disabled selected>Select an option</option>
+                                          <option value="yes">Yes</option>
+                                          <option value="no">No </option>
+                                       </select>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+
+                        <div id="tab-9" class="my-acc-right-content">
+                           <div class="section-title"><br><br>
+                              <h2> Additional Information: </h2>
+                           </div>
+                           <div class="form-wrapper">
+                              <form>
+                                 <!--  Additional Information:  -->
+                                    <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label><br>Why Do You Want to Partner with God's Line: The Nest Eco City? <br>(Briefly describe your 
+                                       motivation and how you align with our project’s mission.)</label><br>
+                                       <!-- Textarea -->
+                                       <input type="text" id="partnership_with_us" class="form-control" placeholder="Enter your thoughts" required="">   
+                                    </div>
+                                 </div>
+                                 <!-- Brief Description of Collaboration Proposal -->
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label for="additional_information_for_proposal"><br>Please Provide Any Additional Information or Documents That Support Your Proposal: <br>
+                                          (e.g., case studies, portfolios, testimonials, etc.)</label>
+                                          <input type="file" id="additional_information_for_proposal" name="additional_information_for_proposal" accept=".pdf,.doc,.docx,.jpg,.png,.zip" multiple>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+
                         <div id="tab-10" class="my-acc-right-content">
+                           <div class="section-title"><br><br>
+                              <h2> Declaration:</h2>
+                           </div>
+                           <div class="form-wrapper">
+                              <form>
+                                 <!--  Collaboration Interest:  -->
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label for="likelihood_to_invest"><br> I hereby declare that the information provided is true and correct to the best of my knowledge. I 
+                                       understand that any false information may lead to the rejection of this collaboration proposal. </label>
+                                       <div class="col-12 mt-4">
+                                          <label>Authorized Signature:</label>
+                                          <input type="text" id="authorized_sign" class="form-control" placeholder="Sign please!" required="">
+                                       </div>
+                                       <div class="col-12 mt-4">
+                                          <label>Name: </label>
+                                          <input type="text" id="authorized_name" class="form-control" placeholder="Enter your name" required="">
+                                       </div>
+                                       <div class="col-12 mt-4">
+                                          <label>Title:</label>
+                                          <input type="text" id="authorized_title" class="form-control" placeholder="Enter Title" required="">
+                                       </div>
+                                       <div class="col-12 mt-4">
+                                          <label>Date: </label>
+                                          <input type="text" id="authorized_date" class="form-control" placeholder="Enter Date" required="">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-12 mt-4">
+                                    <div class="form-group">
+                                       <label for="likelihood_to_invest"><br><br><br>
+                                          Instructions for Submission : <br><br>
+                                          • Please ensure all fields are completed before submitting the form. </br>
+                                          • Attach all necessary documents as indicated. </br>
+                                          • Once submitted, your proposal will be reviewed, and you will be contacted for further discussion if 
+                                          your collaboration aligns with our project’s goals. </br><br>
+                                          Thank you for your interest in collaborating with God's Line: The Nest Eco City. We look forward to 
+                                          exploring the possibilities together!
+                                       </label>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+
+
+                        <div id="tab-12" class="my-acc-right-content">
                            <div class="form-container">
                               <div class="d-flex acc-back-btn-wrp align-items-center justify-content-end">
                                  <button class="btn-secondary back-btn-acc" type="submit">
@@ -862,157 +596,228 @@
                               </div>
                            </div>
                         </div>
+                        </div>
+
+                  
+                        <script>
+                           function toggleOtherOrganization() {
+                               var type_of_organization = document.getElementById("type_of_organization");
+                               var other_type_of_organization = document.getElementById("other_type_of_organization");
+                           
+                               // Loop through selected options
+                               let isOtherSelected = false;
+                               for (let option of type_of_organization.options) {
+                                   if (option.value === "any_other" && option.selected) {
+                                       isOtherSelected = true;
+                                       break;
+                                   }
+                               }
+                            
+                               // Show or hide the textarea based on whether "Other" is selected
+                               if (isOtherSelected) {
+                                 other_type_of_organization.style.display = "block";
+                               } else {
+                                 other_type_of_organization.style.display = "none";
+                               }
+                           }
+                        
+                           function togglePreviousExperience() {
+                               var previous_experience = document.getElementById("previous_experience");
+                               var previous_experience_specify = document.getElementById("previous_experience_specify");
+                           
+                               // Loop through selected options
+                               let isOtherSelected = false;
+                               for (let option of previous_experience.options) {
+                                   if (option.value === "yes" && option.selected) {
+                                       isOtherSelected = true;
+                                       break;
+                                   }
+                               }
+                            
+                               // Show or hide the textarea based on whether "Other" is selected
+                               if (isOtherSelected) {
+                                 previous_experience_specify.style.display = "block";
+                               } else {
+                                 previous_experience_specify.style.display = "none";
+                               }
+                           }
+                        
+                           function toggleResourceForCollaboration() {
+                               var resource_for_collaboration = document.getElementById("resource_for_collaboration");
+                               var resource_for_collaboration_specify = document.getElementById("resource_for_collaboration_specify");
+                           
+                               // Loop through selected options
+                               let isOtherSelected = false;
+                               for (let option of resource_for_collaboration.options) {
+                                   if (option.value === "other" && option.selected) {
+                                       isOtherSelected = true;
+                                       break;
+                                   }
+                               }
+                            
+                               // Show or hide the textarea based on whether "Other" is selected
+                               if (isOtherSelected) {
+                                 resource_for_collaboration_specify.style.display = "block";
+                               } else {
+                                 resource_for_collaboration_specify.style.display = "none";
+                               }
+                           }
+                        
+                           function togglePartnershipStructure() {
+                               var partnership_type = document.getElementById("partnership_type");
+                               var partnership_type_specify = document.getElementById("partnership_type_specify");
+                           
+                               // Loop through selected options
+                               let isOtherSelected = false;
+                               for (let option of partnership_type.options) {
+                                   if (option.value === "other" && option.selected) {
+                                       isOtherSelected = true;
+                                       break;
+                                   }
+                               }
+                            
+                               // Show or hide the textarea based on whether "Other" is selected
+                               if (isOtherSelected) {
+                                 partnership_type_specify.style.display = "block";
+                               } else {
+                                 partnership_type_specify.style.display = "none";
+                               }
+                           }
+                        
+                        
+                              document.querySelector('.continue-btn').addEventListener('click', function(event) {
+                                  // Collect data from each input field
+                                  const data = {
+                                      organization_name: document.getElementById('organization_name').value,
+                                      type_of_organization: document.getElementById('type_of_organization').value,
+                                      other_type_of_organization: document.getElementById('other_type_of_organization').value,
+                                      registration_number: document.getElementById('registration_number').value,
+                                      country_of_registration: document.getElementById('country_of_registration').value,
+                                      headquarters_address: document.getElementById('headquarters_address').value,
+                                      city: document.getElementById('city').value,
+                                      state_or_province: document.getElementById('state_or_province').value,
+                                      postatl_code: document.getElementById('postatl_code').value,
+                                      country: document.getElementById('country').value,
+                                      phone: document.getElementById('phone').value,
+                                      website: document.getElementById('website').value,
+                                      primary_contact_person: document.getElementById('primary_contact_person').value,
+                                      title_or_position: document.getElementById('title_or_position').value,
+                                      email_primary_contact: document.getElementById('email_primary_contact').value,
+                                      phone_primary_contact: document.getElementById('phone_primary_contact').value,
+                                      collaboration_interest: Array.from(document.querySelectorAll('input[name="collaboration_interest"]:checked')).map(el => el.value).join(', '),
+
+                                      collaboration_interest_specify: document.getElementById('collaboration_interest_specify').value,
+                                      collaboration_proposal: document.getElementById('collaboration_proposal').value,
+                                      previous_experience: document.getElementById('previous_experience').value,
+                                      previous_experience_specify: document.getElementById('previous_experience_specify').value,
+                                      expertise_to_offer: Array.from(document.querySelectorAll('input[name="expertise_to_offer"]:checked')).map(el => el.value).join(', '),
+
+                                      expertise_to_offer_specify: document.getElementById('expertise_to_offer_specify').value,
+                                      resource_for_collaboration: document.getElementById('resource_for_collaboration').value,
+                                      resource_for_collaboration_specify: document.getElementById('resource_for_collaboration_specify').value,
+                                      collaboration_objective: Array.from(document.querySelectorAll('input[name="collaboration_objective"]:checked')).map(el => el.value).join(', '),
+                                      
+                                      collaboration_objective_specify: document.getElementById('collaboration_objective_specify').value,
+                                      partnership_type: document.getElementById('partnership_type').value,
+                                      partnership_type_specify: document.getElementById('partnership_type_specify').value,
+                                      collaboration_timeline: document.getElementById('collaboration_timeline').value,
+                                      legal_and_regulatory_experience: document.getElementById('legal_and_regulatory_experience').value,
+                                      ethical_and_environmental_standards: document.getElementById('ethical_and_environmental_standards').value,
+                                      partnership_with_us: document.getElementById('partnership_with_us').value,
+                                      additional_information_for_proposal: document.getElementById('additional_information_for_proposal').value,
+                                      authorized_sign: document.getElementById('authorized_sign').value,
+                                      authorized_name: document.getElementById('authorized_name').value,
+                                      authorized_title: document.getElementById('authorized_title').value,
+                                      authorized_date: document.getElementById('authorized_date').value
+                                  };
+                                  // Validate data and get a list of missing or invalid fields
+                                  const invalidFields = validateData(data);
+
+                                  if (invalidFields.length === 0) {
+                                      // Send data to the server
+                                      console.log(data);
+                                 
+                                      submitData(data);
+                                  } else {
+                                      // Show an alert with the list of missing or invalid fields
+                                      alert('Please fill out the following required fields:\n' + invalidFields.join('\n'));
+                                  }
+                              });
+                              function validateData(data) {
+                                  const invalidFields = [];
+                                  // Check each field and add to the list if it's invalid
+                                  if (!data.organization_name) invalidFields.push('Name');
+                                  if (!data.type_of_organization) invalidFields.push('Age');
+                                  if (!data.country_of_registration) invalidFields.push('Gender');
+                                  if (!data.headquarters_address) invalidFields.push('Location');
+                                  if (!data.city) invalidFields.push('Email');
+                                  if (!data.state_or_province) invalidFields.push('Phone Number');
+                                  if (!data.postatl_code) invalidFields.push('Postal code');
+                                  if (!data.country) invalidFields.push('Project Appeal');
+                                  if (!data.phone) invalidFields.push('Likelihood to Invest');
+                                  if (!data.primary_contact_person) invalidFields.push('Rating Sustainable Homes');
+                                  if (!data.title_or_position) invalidFields.push('Rating Energy Infrastructure');
+                                  if (!data.email_primary_contact) invalidFields.push('Rating Healthcare Facilities');
+                                  if (!data.phone_primary_contact) invalidFields.push('Rating Green Spaces');
+                                  if (!data.collaboration_interest) invalidFields.push('Collaboration interest');
+                                  if (!data.collaboration_proposal) invalidFields.push('Rating Smart Technologies');
+                                  if (!data.previous_experience) invalidFields.push('Rating Recreational Facilities');
+                                  if (!data.expertise_to_offer) invalidFields.push('Expertise to offer');
+                                  if (!data.resource_for_collaboration) invalidFields.push('Additional Features');
+                                  if (!data.collaboration_objective) invalidFields.push('Collaboration Objectives');
+                                  if (!data.partnership_type) invalidFields.push('Community Participation');
+                                  if (!data.collaboration_timeline) invalidFields.push('Community Activities');
+                                  if (!data.legal_and_regulatory_experience) invalidFields.push('Additional Comments');
+                                  if (!data.partnership_with_us) invalidFields.push('Followup Method');
+                                  if (!data.additional_information_for_proposal) invalidFields.push('Followup Method');
+                                  if (!data.authorized_sign) invalidFields.push('Followup Method');
+                                  if (!data.authorized_name) invalidFields.push('Followup Method');
+                                  if (!data.authorized_title) invalidFields.push('Followup Method');
+                                  if (!data.authorized_date) invalidFields.push('Followup Method');
+                                  // Add other fields as necessary
+                                  return invalidFields;
+                              }
+                              function submitData(data) {
+                                  fetch('<?= base_url('submit_survey'); ?>', {
+                                      method: 'POST',
+                                      headers: {
+                                          'Content-Type': 'application/json',
+                                          'X-Requested-With': 'XMLHttpRequest'
+                                      },
+                                      body: JSON.stringify(data)
+                                  })
+                                  .then(response => response.json())
+                                  .then(data => {
+                                      if (data.success) {
+                                          // Handle success, e.g., redirect to a thank-you page
+                                          alert('Your survey has been successfully submitted. Thank you!');
+                                      } else {
+                                          // Handle errors
+                                          alert('There was an error submitting the form. Please try again.');
+                                      }
+                                  })
+                                  .catch((error) => {
+                                      console.error('Error:', error);
+                                  });
+                              }
+                           </script>
+                        </div>
                      </div>
-                     <script>
-                        document.querySelector('.continue-btn').addEventListener('click', function(event) {
-                            // Collect data from each input field
-                            const data = {
-                                whoAreYou: document.getElementById('whoAreYou').value,
-                                firstName: document.getElementById('firstName').value,
-                                lastName: document.getElementById('lastName').value,
-                                gender: document.getElementById('gender').value,
-                                nationality: document.getElementById('nationality').value,
-                                age: document.getElementById('age').value,
-                                phone: document.getElementById('phone').value,
-                                email: document.getElementById('email').value,
-                                designation: document.getElementById('designation').value,
-                                currentLocation: document.getElementById('currentLocation').value,
-                                hometown: document.getElementById('hometown').value,
-                                projectLocation: document.getElementById('projectLocation').value,
-                                interestedDistrict: document.getElementById('interestedDistrict').value,
-                                distanceFromCity: document.getElementById('distanceFromCity').value,
-                                houseType: document.getElementById('houseType').value,
-                                farmType: document.getElementById('farmType') ? document.getElementById('farmType').value : null,
-                                acres: document.getElementById('acres') ? document.getElementById('acres').value : null,
-                                facilityManagement: document.getElementById('facilityManagement') ? document.getElementById('facilityManagement').value : null,
-                                additionalServices: document.getElementById('additionalServices') ? document.getElementById('additionalServices').value : null,
-                                bedrooms: document.getElementById('bedrooms') ? document.getElementById('bedrooms').value : null,
-                                squareFeet: document.getElementById('squareFeet') ? document.getElementById('squareFeet').value : null,
-                                masterBedroomSize: document.getElementById('masterBedroomSize') ? document.getElementById('masterBedroomSize').value : null,
-                                livingRoomSize: document.getElementById('livingRoomSize') ? document.getElementById('livingRoomSize').value : null,
-                                bedroomSize: document.getElementById('bedroomSize') ? document.getElementById('bedroomSize').value : null,
-                                bathroomSize: document.getElementById('bathroomSize') ? document.getElementById('bathroomSize').value : null,
-                                swimmingPool: document.getElementById('swimmingPool') ? document.getElementById('swimmingPool').value : null,
-                                poolSize: document.getElementById('poolSize') ? document.getElementById('poolSize').value : null,
-                                facilityManagementVilla: document.getElementById('facilityManagementVilla') ? document.getElementById('facilityManagementVilla').value : null,
-                                siteVisiting: document.getElementById('siteVisiting') ? document.getElementById('siteVisiting').value : null,
-                                onlineBooking: document.getElementById('onlineBooking') ? document.getElementById('onlineBooking').value : null,
-                                realTimeMonitoring: document.getElementById('realTimeMonitoring') ? document.getElementById('realTimeMonitoring').value : null,
-                                resortType: document.getElementById('resortType') ? document.getElementById('resortType').value : null,
-                                campSite: document.getElementById('campSite') ? document.getElementById('campSite').value : null,
-                                pub: document.getElementById('pub') ? document.getElementById('pub').value : null,
-                                bar: document.getElementById('bar') ? document.getElementById('bar').value : null,
-                                restaurant: document.getElementById('restaurant') ? document.getElementById('restaurant').value : null,
-                                additionalSuggestions: document.getElementById('additionalSuggestions') ? document.getElementById('additionalSuggestions').value : null,
-                                yogaMeditations: document.getElementById('yogaMeditations') ? document.getElementById('yogaMeditations').value : null,
-                                indoorGames: document.getElementById('indoorGames') ? document.getElementById('indoorGames').value : null,
-                                otherSuggestions: document.getElementById('otherSuggestions') ? document.getElementById('otherSuggestions').value : null,
-                                wellnessFacilities: Array.from(document.querySelectorAll('input[name="wellness_facilities"]:checked')).map(el => el.value).join(', '),
-                                smartHome: document.getElementById('smartHome') ? document.getElementById('smartHome').value : null,
-                                otherFacilities: Array.from(document.querySelectorAll('input[name="other_facilities"]:checked')).map(el => el.value).join(', '),
-                                budgetRange: document.getElementById('budgetRange').value,
-                                familyMembers: document.getElementById('familyMembers').value,
-                                additionalIncome: document.getElementById('additionalIncome').value,
-                                incomeType: Array.from(document.querySelectorAll('input[name="incomeType"]:checked')).map(el => el.value).join(', ')
-                            };
-
-                            // Validate data and get a list of missing or invalid fields
-                            const invalidFields = validateData(data);
-
-                            // Check budget range
-                            if (data.budgetRange && !isValidBudget(data.budgetRange)) {
-                                invalidFields.push('Budget Range should be atleast 20 Lakhs)');
-                            }
-
-                            if (invalidFields.length === 0) {
-                                // Send data to the server
-                                console.log(data);
-                                
-                                submitData(data);
-                            } else {
-                                // Show an alert with the list of missing or invalid fields
-                                alert('Please fill out the following required fields:\n' + invalidFields.join('\n'));
-                            }
-                        });
-
-                        function validateData(data) {
-                            const invalidFields = [];
-
-                            // Check each field and add to the list if it's invalid
-                            if (!data.whoAreYou) invalidFields.push('Who are you');
-                            if (!data.firstName) invalidFields.push('First Name');
-                            if (!data.lastName) invalidFields.push('Last Name');
-                            if (!data.gender) invalidFields.push('Gender');
-                            if (!data.nationality) invalidFields.push('Nationality');
-                            if (!data.age) invalidFields.push('Age');
-                            if (!data.phone) invalidFields.push('Phone');
-                            if (!data.email) invalidFields.push('Email');
-                            if (!data.designation) invalidFields.push('Designation');
-                            if (!data.currentLocation) invalidFields.push('Current Residential Location');
-                            if (!data.hometown) invalidFields.push('Hometown');
-                            if (!data.projectLocation) invalidFields.push('Project Location');
-                            if (!data.interestedDistrict) invalidFields.push('Interested District');
-                            if (!data.distanceFromCity) invalidFields.push('Distance From the City');
-                            if (!data.houseType) invalidFields.push('House Type');
-                            if (!data.smartHome) invalidFields.push('Smart Home');
-                            if (!data.budgetRange) invalidFields.push('Budget Range');
-                            if (!data.familyMembers) invalidFields.push('Family Members');
-                            if (!data.additionalIncome) invalidFields.push('Additional Income');
-
-                            // Add other fields as necessary
-
-                            return invalidFields;
-                        }
-
-                        function isValidBudget(budget) {
-                            // Convert budget to a number and check if it's greater than 20 Lakhs
-                            const numericBudget = parseFloat(budget.replace(/[^0-9.-]/g, ''));
-                            return numericBudget > 1900000; // 20 Lakhs in numeric form
-                        }
-
-                        function submitData(data) {
-                            fetch('<?= base_url('submit_survey'); ?>', {
-                                method: 'POST',
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'X-Requested-With': 'XMLHttpRequest'
-                                },
-                                body: JSON.stringify(data)
-                            })
-                            .then(response => response.json())
-                            .then(data => {
-                                if (data.success) {
-                                    // Handle success, e.g., redirect to a thank-you page
-                                    alert('Your survey has been successfully submitted. Thank you!');
-                                } else {
-                                    // Handle errors
-                                    alert('There was an error submitting the form. Please try again.');
-                                }
-                            })
-                            .catch((error) => {
-                                console.error('Error:', error);
-                            });
-                        }
-                     </script>
-
-                     <div id="tab-9" class="my-acc-right-content"></div>
-                     <div id="tab-10" class="my-acc-right-content"></div>
                   </div>
                </div>
-            </div>
-      </div>
-      </section>
+            </section>
+         </div>
       </div>
       <footer class="site-footer">
         <div class="container">
             <div class="footer-row">
-                <div class="footer-col footer-subscribe-col">
-                    <div class="footer-widget">
+                  <div class="footer-col footer-subscribe-col">
+                     <div class="footer-widget">
                         <h4>Subscribe HolidayCity and get -20% off</h4>
                         <p>Aranea presents you Nest- HolidayCity for you and your dear ones. Holiday City
                             introducing you the customized resorts, villas and farmhouse from your wish-list.</p>
                         <form class="footer-subscribe-form">
-                            <div class="input-wrapper">
+                              <div class="input-wrapper">
                                 <input type="email" placeholder="Type your address email...">
                                 <button type="submit" class="btn-subscibe">
                                     Subscription <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
@@ -1022,18 +827,18 @@
                                             fill="#FBFBFB"></path>
                                     </svg>
                                 </button>
-                            </div>
-                            <div class="checkbox-custom">
+                              </div>
+                           <div class="checkbox-custom">
                                 <input type="checkbox" id="subscibecheck">
                                 <label for="subscibecheck">
                                     Contact Us for more details and inquiry
                                 </label>
-                            </div>
+                           </div>
                         </form>
-                    </div>
-                </div>
-                <div class="footer-col footer-link footer-link-1">
-                    <div class="footer-widget">
+                     </div>
+                  </div>
+                  <div class="footer-col footer-link footer-link-1">
+                     <div class="footer-widget">
                         <h4> Shop </h4>
                         <ul>
                             <li><a href="order-summery.html">Order status</a></li>
@@ -1042,10 +847,10 @@
                             <li><a href="checkout.html">Payment Options</a></li>
                             <li><a href="contact-us.html">Contact Us</a></li>
                         </ul>
-                    </div>
-                </div>
-                <div class="footer-col footer-link footer-link-2">
-                    <div class="footer-widget">
+                     </div>
+                  </div>
+                  <div class="footer-col footer-link footer-link-2">
+                     <div class="footer-widget">
                         <h4> Account </h4>
                         <ul>
                             <li><a href="product-list.html">Products</a></li>
@@ -1053,10 +858,10 @@
                             <li><a href="cart.html">My Cart</a></li>
                             <li><a href="my-account.html">My Profile</a></li>
                         </ul>
-                    </div>
-                </div>
-                <div class="footer-col footer-link footer-link-3">
-                    <div class="footer-widget footer-social-links">
+                     </div>
+                  </div>
+                  <div class="footer-col footer-link footer-link-3">
+                     <div class="footer-widget footer-social-links">
                         <h4>Share</h4>
                         <ul>
                             <li>
@@ -1080,18 +885,19 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6">
+                     </div>
+                  </div>
+               </div>
+               <div class="footer-bottom">
+                  <div class="row align-items-center">
+                     <div class="col-12 col-md-6">
                         <p>© 2022 Company. All rights reserved</p>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </footer>
+         </div>
+      </footer>
       <!-- Mobile menu -->
       <div class="mobile-menu-wrapper">
          <div class="menu-close-icon">
