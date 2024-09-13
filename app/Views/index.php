@@ -230,8 +230,8 @@
                                        <!-- Postal Code: -->
                                        <div class="col-md-6 col-12">
                                           <div class="form-group">
-                                             <label for="postatl_code">Postal Code:<sup aria-hidden="true">*</sup>:</label>
-                                             <input type="number" id="postatl_code" class="form-control" placeholder="Enter Postal Code" required="">
+                                             <label for="postal_code">Postal Code:<sup aria-hidden="true">*</sup>:</label>
+                                             <input type="number" id="postal_code" class="form-control" placeholder="Enter Postal Code" required="">
                                           </div>
                                        </div>
                                        <!-- Country: -->
@@ -318,12 +318,13 @@
                                        <label><input type="checkbox" name="collaboration_interest" value="investment_and_funding"> Investment & Funding</label>
                                        <label><input type="checkbox" name="collaboration_interest" value="research_and_development"> Research & Development </label>
                                        <label><input type="checkbox" name="collaboration_interest" value="marketing_and_public_relations"> Marketing & Public Relations</label>
-                                       <label><input type="checkbox" name="collaboration_interest" value="other"> Other</label>
+                                       <label><input type="checkbox" name="collaboration_interest" value="other" id="other_collaboration_interest_specify"> Other</label>
 
                                        <br>
                                        <input type="text" id="collaboration_interest_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
                                     </div>
                                  </div>
+
                                  <!-- Brief Description of Collaboration Proposal -->
                                  <div class="col-12 mt-4">
                                     <div class="form-group">
@@ -370,7 +371,7 @@
                                        <label><input type="checkbox" name="expertise_to_offer" value="community_engagement"> Community Engagement </label>
                                        <label><input type="checkbox" name="expertise_to_offer" value="research_and_innovation"> Research & Innovation </label>
                                        <label><input type="checkbox" name="expertise_to_offer" value="project_management"> Project Management</label>
-                                       <label><input type="checkbox" name="expertise_to_offer" value="other"> Other</label>
+                                       <label><input type="checkbox" name="expertise_to_offer" value="other" id="other_expertise_to_offer_specify"> Other</label>
 
                                        <br>
                                        <input type="text" id="expertise_to_offer_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
@@ -418,7 +419,7 @@
                                        <label><input type="checkbox" name="collaboration_objective" value="driving_economic_growth"> Driving Economic Growth </label>
                                        <label><input type="checkbox" name="collaboration_objective" value="knowledge_sharing_and_learning"> Knowledge Sharing & Learning </label>
                                        <label><input type="checkbox" name="collaboration_objective" value="building_longterm_partnerships"> Building Long-term Partnerships </label>
-                                       <label><input type="checkbox" name="collaboration_objective" value="other"> Other</label>
+                                       <label><input type="checkbox" name="collaboration_objective" value="other" id="other_collaboration_objective_specify"> Other</label>
 
                                        <br>
                                        <input type="text" id="collaboration_objective_specify" class="form-control mt-2" placeholder="Please specify" style="display: none;">
@@ -683,8 +684,35 @@
                                  partnership_type_specify.style.display = "none";
                                }
                            }
+
+                          document.getElementById('other_collaboration_interest_specify').addEventListener('change', function() {
+                            var otherInput = document.getElementById('collaboration_interest_specify');
+                            if (this.checked) {
+                              otherInput.style.display = 'block';
+                            } else {
+                              otherInput.style.display = 'none';
+                            }
+                          });
+
+                          document.getElementById('other_expertise_to_offer_specify').addEventListener('change', function() {
+                            var otherInput = document.getElementById('expertise_to_offer_specify');
+                            if (this.checked) {
+                              otherInput.style.display = 'block';
+                            } else {
+                              otherInput.style.display = 'none';
+                            }
+                          });
+
+                          document.getElementById('other_collaboration_objective_specify').addEventListener('change', function() {
+                            var otherInput = document.getElementById('collaboration_objective_specify');
+                            if (this.checked) {
+                              otherInput.style.display = 'block';
+                            } else {
+                              otherInput.style.display = 'none';
+                            }
+                          });
                         
-                        
+                          
                               document.querySelector('.continue-btn').addEventListener('click', function(event) {
                                   // Collect data from each input field
                                   const data = {
@@ -696,7 +724,7 @@
                                       headquarters_address: document.getElementById('headquarters_address').value,
                                       city: document.getElementById('city').value,
                                       state_or_province: document.getElementById('state_or_province').value,
-                                      postatl_code: document.getElementById('postatl_code').value,
+                                      postal_code: document.getElementById('postal_code').value,
                                       country: document.getElementById('country').value,
                                       phone: document.getElementById('phone').value,
                                       website: document.getElementById('website').value,
@@ -705,18 +733,15 @@
                                       email_primary_contact: document.getElementById('email_primary_contact').value,
                                       phone_primary_contact: document.getElementById('phone_primary_contact').value,
                                       collaboration_interest: Array.from(document.querySelectorAll('input[name="collaboration_interest"]:checked')).map(el => el.value).join(', '),
-
                                       collaboration_interest_specify: document.getElementById('collaboration_interest_specify').value,
                                       collaboration_proposal: document.getElementById('collaboration_proposal').value,
                                       previous_experience: document.getElementById('previous_experience').value,
                                       previous_experience_specify: document.getElementById('previous_experience_specify').value,
                                       expertise_to_offer: Array.from(document.querySelectorAll('input[name="expertise_to_offer"]:checked')).map(el => el.value).join(', '),
-
                                       expertise_to_offer_specify: document.getElementById('expertise_to_offer_specify').value,
                                       resource_for_collaboration: document.getElementById('resource_for_collaboration').value,
                                       resource_for_collaboration_specify: document.getElementById('resource_for_collaboration_specify').value,
                                       collaboration_objective: Array.from(document.querySelectorAll('input[name="collaboration_objective"]:checked')).map(el => el.value).join(', '),
-                                      
                                       collaboration_objective_specify: document.getElementById('collaboration_objective_specify').value,
                                       partnership_type: document.getElementById('partnership_type').value,
                                       partnership_type_specify: document.getElementById('partnership_type_specify').value,
@@ -735,7 +760,7 @@
 
                                   if (invalidFields.length === 0) {
                                       // Send data to the server
-                                      console.log(data);
+                                      
                                  
                                       submitData(data);
                                   } else {
@@ -752,7 +777,7 @@
                                   if (!data.headquarters_address) invalidFields.push('Location');
                                   if (!data.city) invalidFields.push('Email');
                                   if (!data.state_or_province) invalidFields.push('Phone Number');
-                                  if (!data.postatl_code) invalidFields.push('Postal code');
+                                  if (!data.postal_code) invalidFields.push('Postal code');
                                   if (!data.country) invalidFields.push('Project Appeal');
                                   if (!data.phone) invalidFields.push('Likelihood to Invest');
                                   if (!data.primary_contact_person) invalidFields.push('Rating Sustainable Homes');

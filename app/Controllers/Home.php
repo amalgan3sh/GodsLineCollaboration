@@ -90,7 +90,7 @@ class Home extends BaseController
         'headquarters_address' => $json->headquarters_address,
         'city' => $json->city,
         'state_or_province' => $json->state_or_province,
-        'postatl_code' => $json->postatl_code,
+        'postal_code' => $json->postal_code,
         'country' => $json->country,
         'phone' => $json->phone,
         'website' => $json->website,
